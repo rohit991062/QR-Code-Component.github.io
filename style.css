@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: hsl(210, 36%, 96%);
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 300px;
+    text-align: center;
+}
+
+.qr-code {
+    border-radius: 10px;
+    max-width: 100%;
+}
+
+h1 {
+    font-size: 1.25em;
+    color: hsl(218, 44%, 22%);
+    margin: 15px 0;
+}
+
+p {
+    color: hsl(220, 15%, 55%);
+    font-size: 1em;
+    margin: 15px 0;
+}
+
+
+@media (max-width: 375px) {
+    .container {
+        padding: 15px;
+        max-width: 90%;
+    }
+
+    h1 {
+        font-size: 1.1em;
+    }
+
+    p {
+        font-size: 0.9em;
+    }
+}
